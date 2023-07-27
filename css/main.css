@@ -352,6 +352,7 @@ section:last-child {
   padding: 2rem;
   margin: -2rem;
   margin-top: -4rem !important;
+  row-gap: 2rem;
 }
 
 .slider-wrapper:not(.icons) {
