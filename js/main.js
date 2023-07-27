@@ -1,4 +1,7 @@
 
+console.log('Have fun!');
+
+
 /* Glitch neon sign on load */
 
 window.addEventListener("DOMContentLoaded", (event) => {
@@ -43,12 +46,12 @@ recipies.forEach(name => {
 
 
 
-/* Toggle neon sign on double click */
+/* Toggle neon sign on click */
 
 const neonsigns = document.querySelectorAll('.neon-on-tap');
 
 neonsigns.forEach(sign => {
-	sign.addEventListener("dbltap", event => {
+	sign.addEventListener("tap", event => {
 		sign.classList.toggle('neon');
 
     /* Glitch effect */
